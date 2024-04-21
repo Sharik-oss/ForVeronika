@@ -1,0 +1,126 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dancing script", cursive;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        45deg,
+        #eb9d9d,
+        #eb9d9d 40px,
+        #96b9bf 40px,
+        #96b9bf 60px
+    );
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 95%;
+    background-color: #fcf4df;
+    hr{
+        rotate: 180deg;
+        height: 80%;
+        width: 3px;
+        border-radius: 39px;
+        background: #251616ba;
+    }
+}
+
+.main-content{
+    width: 45%;
+    height: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    text-wrap: balance;
+
+    .main-content-text{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70%;
+    }
+    .main-content-img{
+        display: flex;
+        width: 100%;
+        height: 30%;
+        align-items: end;
+        justify-content: flex-start;
+        img{
+            width: 50px;
+        }
+    }
+    
+}
+
+.second-content{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+
+    .secont-content-image{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: start;
+        img{
+            width: 50px;
+        }
+        
+    }
+    .lines{
+        height: 90%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        hr{
+            width: 70%;
+            height: 2px;
+            margin-top: 20px;
+        }
+    }
+   
+}
+
+.to-next-page{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    right: 12px;
+    bottom: 20px;
+    button{
+        font-family: "Roboto", sans-serif;
+        width: 200px;
+        font-size: 16px;
+        height: 20px;
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-weight: 600;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
